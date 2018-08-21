@@ -1,0 +1,6 @@
+{
+    "api_host": "http://localhost:8055/api/v1",
+    "google_auth": {
+        "clientId": "353165296501-rqsgvtqkl4767i7rao47hags1eobgte4.apps.googleusercontent.com"
+    }
+}

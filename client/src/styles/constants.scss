@@ -1,0 +1,21 @@
+:root
+{
+	--white-color        : #ffffff;
+	--black-color        : #000000;
+
+	--gray-color         : #888C91;
+
+	--base-color-lighter : #30CFFF;
+	--base-color         : #00A6ED;
+	--base-color-darker  : #0084BD;
+
+	--unit : 0.7rem;
+	--column-gap : var(--unit);
+	--page-content-padding : calc(var(--column-gap) * 2);
+
+	// Mobile font size must be at least 16px
+	// to prevent automatic zoom on input focus.
+	--font-size : 16pt;
+
+	--preloading-screen-z-index : 10;
+}

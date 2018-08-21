@@ -1,0 +1,67 @@
+@import "../styles/common.scss";
+@font-face {
+    font-family: 'Roboto';
+    src: url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+}
+
+// Stretches the page to 100% height
+.webpage
+{
+	// For z-index ordering (relative to preloading screen)
+	position : relative;
+	z-index  : 0;
+
+	display        : flex;
+	flex-direction : column;
+	min-height     : 100vh;
+	max-height: 100vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.webpage--loading
+{
+	// `react-waypoint` wouldn't work correctly with `display: none` -> `display: block`.
+	// https://github.com/brigade/react-waypoint/issues/164#issuecomment-299640438
+	// display: none;
+	visibility: hidden;
+}
+
+// Content takes all free space
+.webpage__content
+{
+	flex-shrink : 0;
+	flex-grow   : 1;
+	flex-basis  : auto;
+	height: 80vh;
+	max-height: 80vh;
+	min-height: 80vh;
+	z-index:1;	
+}
+
+.webpage__header
+{
+	padding-top    : calc(var(--unit) * 4);
+	padding-bottom : calc(var(--unit) * 4);
+	padding-left   : calc(var(--unit) * 6);
+	padding-right  : calc(var(--unit) * 6);
+}
+
+.selectBox{
+	div: {
+		background-color: white !important; 
+	}
+}
+
+.selectRow{
+	div: {
+		background-color: white !important; 
+	}
+	option: {
+		background-color: white !important; 
+	}
+}
+
+div.select-menu-outer {
+	background-color: white !important;
+}

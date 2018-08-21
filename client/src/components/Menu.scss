@@ -1,0 +1,5 @@
+@import "../styles/common.scss";
+.menu-item--selected
+{
+	border-bottom-color : var(--base-color) + "!important";
+}

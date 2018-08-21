@@ -1,0 +1,23 @@
+{
+  "domain" : "https://api-uat.novaly.ltd",
+  "api_url": "https://api-uat.novaly.ltd/api/v1/",
+  "upload_url": "https://api-uat.novaly.ltd/uploads/",
+  "public_url": "https://voucher.novaly.ltd",
+  "url": "https://uat.salon.novaly.ltd/",
+  "wp": {
+    "user": "abhishiekgowtham@gmail.com",
+    "password": "gtW$clZL&qqj0d8s2&ch8u)O"
+  },
+  "woo": {
+    "key": "ck_b70bd964aa18c9575ce1087960a07b0a5e643f21",
+    "secret": "cs_2f7c0cfc0e58ac58bef09525246eb69d8ea920cd"
+  },
+  "mailgun": {
+    "api_key" : "key-9ijrk5dmziu2pp5ex6yucrxgfz0wgow1",
+    "pub_api_key" : "pubkey-2pvqgj3edd2h1qlhfirqj3qswfeq8kp2",
+    "domain" : "dailyvanity.sg",
+    "emailAddress" : "Daily Vanity Singapore <only@dailyvanity.sg>",
+    "from": "only@dailyvanity.sg",
+    "bcc": "worksf375@gmail.com"
+  }
+}

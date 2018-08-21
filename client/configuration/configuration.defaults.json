@@ -1,0 +1,40 @@
+{
+	"webserver":
+	{
+		"port": 3556
+	},
+	"services":
+	{
+		"rendering":
+		{
+			"port": 3555
+		},
+		"api":
+		{
+			"port": 8055
+		}
+	},
+	"webpack":
+	{
+		"devserver":
+		{
+			"host": "localhost",
+			"port": 3556
+		}
+	},
+	
+	"api_server": "http://localhost:8055/api/v1",
+	"image_server": "http://localhost:8055",
+	"s3config": {
+		"bucketName": "Salon",
+		"albumName": "images",
+		"accessKeyId": "AKIAJWI4DDNI4WMOQJ2Q",
+		"secretAccessKey": "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",
+		"region": "ap-southeast-1"
+	},
+	"authtesting": false,
+	"socket_endpoint": "http://localhost:8055",
+	"google_auth": {
+        "clientId": "353165296501-rqsgvtqkl4767i7rao47hags1eobgte4.apps.googleusercontent.com"
+    } 
+}
